@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zarko</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #f5f7fb;
+            color: #172033;
+        }
+
+        nav {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8%;
+            background: white;
+            border-bottom: 1px solid #e8ebf0;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            color: #3157d5;
+        }
+
+        .login-btn {
+            text-decoration: none;
+            color: white;
+            background: #3157d5;
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .hero {
+            min-height: calc(100vh - 70px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e8edff;
+            color: #3157d5;
+            padding: 8px 15px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 22px;
+        }
+
+        h1 {
+            font-size: 58px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #3157d5;
+        }
+
+        .description {
+            color: #667085;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .start-btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #3157d5;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 9px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .start-btn:hover {
+            background: #2446b5;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            margin-top: 55px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: white;
+            padding: 18px 25px;
+            border-radius: 10px;
+            border: 1px solid #e8ebf0;
+            color: #475467;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Zarko</div>
+
+        <a href="" class="login-btn">
+            Login
+        </a>
+    </nav>
+
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                Inventory Management
+            </div>
+
+            <h1>
+                Manage your business<br>
+                <span>with clarity.</span>
+            </h1>
+
+            <p class="description">
+                Zarko brings inventory, billing, orders and distributors
+                together in one simple workspace.
+            </p>
+
+            <a href="" class="start-btn">
+                Get Started →
+            </a>
+
+            <div class="features">
+
+                <div class="feature">
+                    📦 Inventory
+                </div>
+
+                <div class="feature">
+                    🧾 Billing
+                </div>
+
+                <div class="feature">
+                    🚚 Distributors
+                </div>
+
+                <div class="feature">
+                    📊 Business Insights
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
